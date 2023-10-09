@@ -18,7 +18,7 @@ h1 {
   color: #333;
 }
 
-p {
+.contactp {
   font-size: 18px;
   color: #666;
 }
@@ -36,7 +36,7 @@ p {
   color: #333;
 }
 
-.contact-item p {
+.contact-item .contactp {
   font-size: 18px;
   color: #666;
 }
@@ -50,7 +50,7 @@ p {
   color: #333;
 }
 
-.social-media p {
+.social-media .contactp {
   font-size: 18px;
   color: #666;
 }
@@ -64,43 +64,3 @@ p {
   height: 40px;
 }
 
-.feedback-form {
-  margin-top: 30px;
-}
-
-.feedback-form h2 {
-  font-size: 24px;
-  color: #333;
-}
-
-.feedback-form label {
-  display: block;
-  font-size: 18px;
-  margin-top: 10px;
-  color: #333;
-}
-
-.feedback-form input,
-.feedback-form textarea {
-  width: 100%;
-  padding: 10px;
-  font-size: 18px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.feedback-form button {
-  background-color: #007bff;
-  color: #fff;
-  font-size: 18px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.feedback-form button:hover {
-  background-color: #0056b3;
-}

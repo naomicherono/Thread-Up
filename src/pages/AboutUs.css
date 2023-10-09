@@ -1,26 +1,82 @@
 /* AboutUs.css */
 
-/* Styling for the About Us page */
 .about-us-container {
-    padding: 2rem;
-    font-family: Arial, sans-serif;
-    color: #333;
+  background-color: #f5f5f5;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-us-hr {
+  background-color: #333;
+  height: 2px;
+  border: none;
+  margin: 20px auto;
+}
+
+.about-us-lead {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-us-h2 {
+  font-size: 30px;
+  color: #333;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-us-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.about-us-card-title {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.about-us-card-body {
+  padding: 0;
+}
+
+.about-us-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-us-product {
+  width: calc(25% - 20px); /* Adjust as needed for spacing */
+  margin: 0 10px 20px;
+}
+
+@media (max-width: 767px) {
+  .about-us-products {
+    flex-direction: column;
   }
-  
-  .about-us-content {
-    max-width: 800px;
-    margin: 0 auto;
+
+  .about-us-product {
+    width: 100%;
+    margin: 0 0 20px;
   }
-  
-  .about-us-header {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  .about-us-text {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-  }
-  
+}

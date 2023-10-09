@@ -8,25 +8,25 @@ const Contacts = () => {
     <div className="contacts-container">
       <div className="contacts-content">
         <h1>Contact Us</h1>
-        <p>
+        <p className="contactp">
           We're here to assist you with any questions, concerns, or feedback you may have.
         </p>
         <div className="contact-info">
           <div className="contact-item">
             <h2>Email</h2>
-            <p>
+            <p className="contactp">
               You can reach us via email at <a href="mailto:info@threadup.com">info@threadup.com</a>.
             </p>
           </div>
           <div className="contact-item">
             <h2>Phone</h2>
-            <p>
+            <p className="contactp">
               Our customer support is available 24/7. Feel free to call us at <a href="tel:+123456789">+1 (2547) 123-567-89</a>.
             </p>
           </div>
           <div className="contact-item">
             <h2>Address</h2>
-            <p>
+            <p className="contactp">
               Visit our store at:<br />
               123 Ngong Road,<br />
               Nairobi, Kenya 
@@ -35,7 +35,7 @@ const Contacts = () => {
         </div>
         <div className="social-media">
           <h2>Connect With Us</h2>
-          <p>
+          <p className="contactp">
             Follow us on social media for the latest updates and promotions:
           </p>
           <div className="social-icons">
