@@ -1,7 +1,7 @@
 /* AboutUs.css */
 
 .about-us-container {
-  background-color: #f5f5f5;
+  /* background-color: #f5f5f5; */
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
@@ -37,22 +37,24 @@
 }
 
 .about-us-card {
-  background-color: #fff;
+  /* background-color: #fff; */
   border: none;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-us-card-img-top {
+  width: 100%; /* Set the image width to 100% of the card */
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .about-us-card-title {
-  font-size: 24px;
-  color: #333;
-  text-align: center;
+  /* background-color: #fff; */
   padding: 10px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
 }
 
 .about-us-card-body {
