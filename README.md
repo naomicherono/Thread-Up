@@ -6,10 +6,10 @@
 Welcome to the front end of the ThreadUp website. This README will provide you with a detailed overview of the application, its features, and how to use it.
 
 ## Authors
-Brian Kibet
-Naomi Cherono
-Omar Farouq
-Isaac Mogaka
+* Brian Kibet
+* Naomi Cherono
+* Omar Farouq
+* Isaac Mogaka
 
 
 ## Table of Contents
@@ -27,11 +27,10 @@ License
 The ThreadUp website is designed to help users discover and explore a wide range of products. This front end is built using HTML, CSS, JavaScript, and React, and it interacts with the backend through a RESTful API. The website consists of several key pages and features:
 
 ## Image sketch
-```
+
 ![Screenshot from 2023-10-16 15-39-55](https://github.com/naomicherono/Thread-Up/assets/132652298/676af2d4-cd31-400a-922e-c48035043330)
 
 
-```
 ## live link to the website-frontend
 https://thread-up.onrender.com/
 
