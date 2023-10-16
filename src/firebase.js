@@ -7,12 +7,14 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDMcu2qxcb5oNi7cLOsB11xPiMtQAKaOGA",
-  authDomain: "movie-app-cbe7a.firebaseapp.com",
-  projectId: "movie-app-cbe7a",
-  storageBucket: "movie-app-cbe7a.appspot.com",
-  messagingSenderId: "281076083064",
-  appId: "1:281076083064:web:ace7f083ea3a649132808d"
+
+  apiKey: "AIzaSyA6oxMtOBMtuUZu0xpvC6UyaiOHVkQL0vw",
+  authDomain: "thread-up-5a525.firebaseapp.com",
+  projectId: "thread-up-5a525",
+  storageBucket: "thread-up-5a525.appspot.com",
+  messagingSenderId: "349507741023",
+  appId: "1:349507741023:web:c4767d91b5808a111882ea"
+
 };
 
 // Initialize Firebase
