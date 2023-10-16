@@ -77,17 +77,7 @@ const Nav = ({ handleInputChange, query }) => {
           </>
         )}
       </ul>
-      <div className="profile-container">
-        <a href="#">
-          <FiHeart className="nav-icons" />
-        </a>
-        <a href="">
-          <AiOutlineShoppingCart className="nav-icons" />
-        </a>
-        <a href="">
-          <AiOutlineUserAdd className="nav-icons" />
-        </a>
-      </div>
+     
     </nav>
   );
 };
